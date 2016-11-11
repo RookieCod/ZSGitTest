@@ -23,8 +23,7 @@
     
     NSLog(@"中华人民共和国居民身份证验证之正则表达式");
     
-    NSLog(@"这是在developzhangsong分支上修改的");
-    
+
     NSLog(@"==%@",[[ChineseToPinyin pinyinFromChineseString:@"" withSpace:YES] lowercaseString]);
     NSLog(@"==%c",[ChineseToPinyin sortSectionTitle:@"重庆"]);
 }
